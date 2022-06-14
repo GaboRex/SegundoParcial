@@ -8,11 +8,13 @@ public class Estudiante extends Persona{
 
     @Override
     public void send(String msg, String ruta) {
-        chatJuegos.send(msg, this, ruta );
+        chatJuegos.send(msg,this, ruta);
     }
 
     @Override
-    public void receive(String msg) {
-        System.out.println("El Jugador");
+    public void received(String msg) {
+        System.out.println("Nombre del jugador: " + getNombre() );
+        System.out.println("Recibio este mensaje: " + msg);
     }
 }
+
