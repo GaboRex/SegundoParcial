@@ -1,4 +1,4 @@
-package command.structure;
+package EstructurasPatrones.Command;
 
 public class Receiver {
     private String attribute1;

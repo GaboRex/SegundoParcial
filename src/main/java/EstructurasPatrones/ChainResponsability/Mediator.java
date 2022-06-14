@@ -1,4 +1,4 @@
-package mediator.structure;
+package EstructurasPatrones.ChainResponsability;
 
 public interface Mediator {
     void send(String msg, Colleague colleague);

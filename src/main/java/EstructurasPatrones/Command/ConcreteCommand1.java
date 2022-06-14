@@ -1,4 +1,4 @@
-package command.structure;
+package EstructurasPatrones.Command;
 
 public class ConcreteCommand1 implements ICommand{
     private Receiver receiver;

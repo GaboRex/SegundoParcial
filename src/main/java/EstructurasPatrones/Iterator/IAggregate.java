@@ -1,2 +1,5 @@
-package EstructurasPatrones.Iterator;public interface IAggregate {
+package EstructurasPatrones.Iterator;
+
+public interface IAggregate {
+    Iterator createIterator();
 }

@@ -1,4 +1,4 @@
-package observer.structure;
+package EstructurasPatrones.State;
 
 import java.util.ArrayList;
 import java.util.List;

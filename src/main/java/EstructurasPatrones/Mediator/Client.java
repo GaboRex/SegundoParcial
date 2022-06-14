@@ -1,4 +1,4 @@
-package mediator.structure;
+package EstructurasPatrones.Mediator;
 
 public class Client {
 

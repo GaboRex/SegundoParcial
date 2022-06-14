@@ -1,4 +1,4 @@
-package mediator.structure;
+package EstructurasPatrones.Memento;
 
 public class Client {
 

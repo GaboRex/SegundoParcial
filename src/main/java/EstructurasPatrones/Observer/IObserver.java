@@ -1,4 +1,4 @@
-package observer.structure;
+package EstructurasPatrones.Observer;
 
 public interface IObserver {
     void update(String msg);

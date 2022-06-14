@@ -1,4 +1,4 @@
-package mediator.structure;
+package EstructurasPatrones.Memento;
 
 public class ConcreteColleague2 extends Colleague{
 

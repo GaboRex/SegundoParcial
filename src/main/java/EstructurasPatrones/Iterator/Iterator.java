@@ -1,2 +1,7 @@
-package EstructurasPatrones.Iterator;public interface Iterator {
+package EstructurasPatrones.Iterator;
+
+public interface Iterator {
+    Object next();
+    boolean hasNext();
 }
+

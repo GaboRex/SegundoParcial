@@ -1,4 +1,4 @@
-package mediator.structure;
+package EstructurasPatrones.ChainResponsability;
 
 public class ConcreteColleague1 extends Colleague{
 

@@ -1,4 +1,4 @@
-package observer.structure;
+package EstructurasPatrones.State;
 
 public interface ISubject {
     void attach(IObserver observer);//agregar/adjuntar a los observadores

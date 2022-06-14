@@ -1,21 +1,22 @@
 package EstructurasPatrones.Iterator;
 
-public class ConcreteAggregateA implements IAggregate {
-    // Lógica de algún objeto que almacene objetos
-    private int position;
-    private String[] nameList;
+import java.util.Vector;
 
-    public ConcreteAggregateA(){
-        nameList = new String[5];
+public class ConcreteAggregateB implements IAggregate {
+    // Lógica de algún objeto que almacene objetos
+    private Vector<String> nameList;
+
+
+    public ConcreteAggregateB(){
+        nameList = new Vector<>();
     }
 
     public void add(String value){
-        nameList[position] = value;
-        position++;
+        nameList.add(value);
     }
 
     @Override
     public Iterator createIterator() {
-        return new ConcreteIteratorA(nameList);
+        return new ConcreteIteratorB(nameList);
     }
 }

@@ -1,4 +1,4 @@
-package command.structure;
+package EstructurasPatrones.Command;
 
 import java.util.ArrayList;
 import java.util.List;
